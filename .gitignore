@@ -1,0 +1,38 @@
+# Build output
+Debug/
+Release/
+x64/
+x86/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.aps
+*.ncb
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+ipch/
+
+# Compiled object files
+*.obj
+*.o
+
+# Compiled executables and libraries
+*.exe
+*.dll
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.map
+
+# Precompiled headers
+*.pch
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
