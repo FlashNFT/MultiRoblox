@@ -45,12 +45,11 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
         "EDIT",
         "Bem-vindo ao MultiRoblox!\r\n\r\n"
         "COMO USAR:\r\n"
-        "1. Abra este programa PRIMEIRO\r\n"
-        "2. Depois abra quantas instancias do Roblox quiser\r\n"
-        "3. Quando fechar este programa, apenas uma\r\n"
-        "   instancia do Roblox continuara aberta.\r\n\r\n"
-        "Este programa funciona criando o Mutex que o\r\n"
-        "Roblox usa para impedir multiplas instancias.\r\n",
+        "1. Abra este programa\r\n"
+        "2. Abra quantas instancias do Roblox quiser\r\n"
+        "3. O programa monitora e libera o mutex automaticamente\r\n\r\n"
+        "NOTA: Funciona mesmo se o Roblox ja estiver aberto!\r\n"
+        "Mantenha este programa aberto enquanto usar multiplas instancias.",
         WS_BORDER | WS_VISIBLE | WS_CHILD | ES_LEFT | ES_AUTOHSCROLL | ES_MULTILINE | ES_READONLY,
         10, 40, 365, 365,
         g_hwnd, NULL, hInstance, NULL
